@@ -32,16 +32,16 @@
       </div>
 
       <!-- input textarea -->
-      <div class="card flex justify-center">
-        <FloatLabel>
-          <Textarea
-            v-model="formStore.textareaValue"
-            rows="5"
-            cols="50"
-            class="resize-none"
-          />
-          <label>Description</label>
-        </FloatLabel>
+      <div class="flex flex-col gap-2">
+        <label class="text-start text-sm font-medium text-gray-900"
+          >Description</label
+        >
+        <Textarea
+          v-model="formStore.textareaValue"
+          rows="5"
+          cols="50"
+          class="resize-none"
+        />
       </div>
       <!-- input radio -->
       <div class="card flex justify-start">

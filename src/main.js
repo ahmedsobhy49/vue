@@ -15,7 +15,6 @@ import Textarea from "../node_modules/primevue/textarea";
 import RadioButton from "../node_modules/primevue/radiobutton";
 import Dropdown from "../node_modules/primevue/dropdown";
 import Checkbox from "../node_modules/primevue/checkbox";
-import FloatLabel from "../node_modules/primevue/FloatLabel";
 import Button from "../node_modules/primevue/button";
 import DataTable from "../node_modules/primevue/datatable";
 import Column from "../node_modules/primevue/column";
@@ -26,7 +25,7 @@ const app = createApp(App);
 const pinia = createPinia();
 
 app.component("Panel", Panel);
-app.component("FloatLabel", FloatLabel);
+
 app.component("InputText", InputText);
 app.component("InputNumber", InputNumber);
 app.component("Rating", Rating);
