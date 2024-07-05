@@ -8,19 +8,19 @@ import { createPinia } from "pinia";
 
 import "primeicons/primeicons.css";
 
-import InputText from "primevue/inputtext";
-import InputNumber from "primevue/inputnumber";
-import Rating from "primevue/rating";
-import Textarea from "primevue/textarea";
-import RadioButton from "primevue/radiobutton";
-import Dropdown from "primevue/dropdown";
-import Checkbox from "primevue/checkbox";
-import FloatLabel from "primevue/FloatLabel";
-import Button from "primevue/button";
-import DataTable from "primevue/datatable";
-import Column from "primevue/column";
-import ColumnGroup from "primevue/columngroup";
-import Row from "primevue/row";
+import InputText from "../node_modules/primevue/inputtext";
+import InputNumber from "../node_modules/primevue/inputnumber";
+import Rating from "../node_modules/primevue/rating";
+import Textarea from "../node_modules/primevue/textarea";
+import RadioButton from "../node_modules/primevue/radiobutton";
+import Dropdown from "../node_modules/primevue/dropdown";
+import Checkbox from "../node_modules/primevue/checkbox";
+import FloatLabel from "../node_modules/primevue/FloatLabel";
+import Button from "../node_modules/primevue/button";
+import DataTable from "../node_modules/primevue/datatable";
+import Column from "../node_modules/primevue/column";
+import ColumnGroup from "../node_modules/primevue/columngroup";
+import Row from "../node_modules/primevue/row";
 
 const app = createApp(App);
 const pinia = createPinia();
